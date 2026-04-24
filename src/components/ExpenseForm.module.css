@@ -1,0 +1,64 @@
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 18px 20px;
+}
+
+.cardTitle {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  gap: 10px;
+  align-items: end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field label {
+  font-size: 11px;
+  color: #999;
+}
+
+.field input, .field select {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 13px;
+  background: #f7f7f7;
+  outline: none;
+  font-family: inherit;
+  color: #1e1e1e;
+}
+
+.field input:focus, .field select:focus {
+  border-color: #D22145;
+  background: #fff;
+}
+
+.btn {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  background: #D22145;
+  color: white;
+}
+
+.btn:hover {
+  background: #b01a38;
+}
