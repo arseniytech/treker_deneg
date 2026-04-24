@@ -1,0 +1,113 @@
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 18px 20px;
+}
+
+.cardTitle {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.filterRow {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.filterChip {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  background: transparent;
+  color: #888;
+  font-family: inherit;
+}
+
+.filterChip:hover {
+  border-color: #D22145;
+  color: #D22145;
+}
+
+.filterChip.active {
+  background: #D22145;
+  color: white;
+  border-color: #D22145;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  font-size: 11px;
+  color: #999;
+  padding: 0 10px 8px;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600;
+}
+
+tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+tbody tr:hover {
+  background: #fafafa;
+}
+
+tbody td {
+  padding: 10px;
+  font-size: 13px;
+  color: #1e1e1e;
+}
+
+.tdDate {
+  color: #999;
+  font-size: 12px;
+}
+
+.categoryBadge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.tdAmount {
+  font-weight: 600;
+}
+
+.deleteBtn {
+  background: none;
+  border: none;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  opacity: 0;
+}
+
+tbody tr:hover .deleteBtn {
+  opacity: 1;
+}
+
+.deleteBtn:hover {
+  color: #D22145;
+  background: #fff0f3;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 40px;
+  color: #bbb;
+  font-size: 13px;
+}
